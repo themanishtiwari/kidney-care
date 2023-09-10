@@ -1,0 +1,7 @@
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^bkkidneycare.com/blog
+RewriteRule (.*) https://www.bkkidneycare.com/blog$1 [R=301,L]
+
+
+
+

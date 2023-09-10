@@ -1,0 +1,15 @@
+
+DirectoryIndex index.php index.html index.html index2.html
+
+ErrorDocument 403 /error-page.php
+ErrorDocument 404 /error-page.php
+ErrorDocument 500 /error-page.php
+
+
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^bkkidneycare.com 
+RewriteRule (.*) https://www.bkkidneycare.com/$1 [R=301,L]
+
+
+
+

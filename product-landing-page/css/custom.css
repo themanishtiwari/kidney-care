@@ -1,0 +1,241 @@
+/********** common setting **********/
+
+html {
+    scroll-behavior: smooth;
+}
+/* Whatsapp Click Button CSS */
+.whatsapp-float {
+    position: fixed;
+    bottom: 4%;
+    right: 5%;
+    
+    z-index: 2;
+    }
+
+    .whatsapp-float img {
+    width: 80px;
+    border-radius: 50%;
+    }
+
+h2 {
+    font-size: 2.8rem !important;
+    font-weight: 700;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+a,
+button {
+    cursor: pointer;
+}
+
+.jumbotron {
+    margin-bottom: 0 !important;
+}
+
+#phone {
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+#phone a {
+    color: #804000 !important
+}
+
+.atlas-cta {
+    border-radius: 22px !important;
+    padding: 12px 30px !important;
+    font-weight: 700;
+    transition: .3s ease-in-out !important;
+}
+
+.atlas-cta:hover {
+    text-decoration: none;
+    transform: translateY(-5px);
+}
+
+.atlas-cta-wide {
+    width: 100%;
+}
+
+.cta-green {
+    background: #804000;
+    color: #ffff;
+}
+
+.cta-green:hover {
+    /* color: #ffffff; */
+    color: #804000;
+    border: 1px solid #804000 ;
+    background-color: transparent;
+}
+
+.cta-blue {
+    background: #192440;
+    color: #ffffff;
+}
+
+.cta-blue:hover {
+    /* color: #ffffff; */
+    background: #121a2e;
+}
+
+.cta-ghost {
+    border: 2px solid #192440 !important;
+    color: #192440;
+}
+
+.cta-ghost:hover {
+    color: #ffffff;
+    background: #121a2e;
+}
+
+#banner {
+    background-size: cover;
+}
+
+/********** banner **********/
+#banner header {
+    overflow: hidden;
+}
+
+#banner header img {
+    max-width: 250px;
+}
+
+@media screen and (max-width: 790px) {
+    .whatsapp-float img {
+        width: 50px;
+        border-radius: 50%;
+        }
+    #banner header img {
+        max-width: 150px;
+    }
+  }
+
+#line {
+    border: 1px solid #804000;
+}
+
+
+/* Story Section  */
+
+#story {
+    margin: 3% 0;
+  }
+  
+  #story-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 95%;
+    margin: auto;
+    flex-wrap: wrap;
+  }
+  
+  #story .story-pateint{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 5px auto;
+  }
+  
+  #story .story-pateint img {
+    width: 170px;
+    margin: 10px 0;
+    border: 3px solid #804000;
+    border-radius: 50%;
+  }
+  
+  #story .story-pateint p{
+    font-size: 15px;
+    font-weight: bold;
+    margin: 0 !important;
+  }
+  
+  
+  #story .story-pateint .pateint-btn {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #story .story-pateint .pateint-btn a  {
+    text-decoration: none;
+    color: #804000;
+    border: 1px solid hidden;
+    background-color: #029077;
+    font-size: 13px;
+    padding: 4px 8px;
+    margin: 4px 2px;
+  }
+
+/********** contact **********/
+#contact {
+    background-size: cover;
+}
+
+#contact ul li {
+    padding: 3px 0;
+}
+
+#contact form {
+    color: #804000;
+}
+
+#contact form input,
+#contact form textarea {
+    background: transparent;
+    border: 1px solid #804000;
+    color: #000;
+}
+
+/********** copyright **********/
+#copyright {
+    background: #5cb85c38 !important;
+    padding: 2rem 3rem;
+}
+
+#copyright a {
+    width: 40px;
+    height: 40px;
+    border-radius: 99%;
+    transition: .4s ease;
+}
+
+#copyright #social-media a i {
+    color: #192440;
+    font-size: 1.2rem;
+    line-height: 40px;
+}
+
+#copyright #social-media a:hover {
+    background: #00FFAD;
+}
+
+#copyright #social-media a:hover i {
+    color: #ffffff;
+}
+
+.powe#804000 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/********** RWD **********/
+@media (max-width: 575px) {
+    #banner h1 {
+        font-size: 3.6rem;
+    }
+
+    .murta {
+        display: none;
+    }
+}
